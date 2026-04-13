@@ -1,16 +1,22 @@
-import logo from '../assets/chapeu.svg';
-import Menu from './Menu';
+import './Sidebar.css';
 
 function Sidebar() {
-    return (
-      <aside>
-        <header>
-          <img src={logo} alt="imagem logo" />
-          <h1>Aluno Online</h1>
-        </header>
-        <Menu />
-      </aside>
-    );
+  return (
+    <aside>
+      <header>
+        <h2>Aluno Online</h2>
+        <img src="/learn.svg" alt="Icon Hat" />
+      </header>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Notas</a></li>
+        <li><a href="#">Faltas</a></li>
+        <li><a href="#">Boletos</a></li>
+        <li><a href="#">Requerimentos</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </aside>
+  );
 }
 
 export default Sidebar;
