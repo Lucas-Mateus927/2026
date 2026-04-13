@@ -1,13 +1,8 @@
-import "./App.css";
 import Dashboard from './pages/Dashboard';
-import Boletos from './pages/Boletos';
-import Faltas from './pages/Faltas';
-import Notas from './pages/Notas';
-import Requerimentos from './pages/Requerimentos';
+import './App.css';
 
 function App() {
-  return <></>;
-  return <Dashboard />
+  return <Dashboard />;
 }
 
 export default App;
