@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+@media (width >= 768px) {
+  header {
+    gap: 400px;
+  }
+}
