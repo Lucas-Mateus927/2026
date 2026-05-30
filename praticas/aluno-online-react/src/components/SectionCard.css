@@ -1,0 +1,18 @@
+.section-card {
+  background: #ffffff;
+  border: 1px solid #e7ebf4;
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+}
+
+.section-card h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.section-card-body {
+  color: #48515d;
+  line-height: 1.7;
+}
